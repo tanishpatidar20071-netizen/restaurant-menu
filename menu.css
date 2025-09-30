@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Left: Images */
+.menu-images {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-images img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+/* Right: Content */
+.menu-content {
+  width: 50%;
+  background-color: #111;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-name {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5em;
+  color: #f9c349;
+}
+
+.tagline {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 400;
+  border-bottom: 2px solid #f9c349;
+  padding-bottom: 10px;
+  width: max-content;
+}
+
+.menu-section {
+  margin-bottom: 30px;
+}
+
+.menu-section h3 {
+  font-size: 1.2em;
+  color: #f9c349;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.menu-section ul {
+  list-style: none;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #555;
+  padding: 8px 0;
+  color: #ddd;
+}
+
+.menu-section li span {
+  color: #f9c349;
+}
+
+/* Footer */
+.footer {
+  border-top: 2px solid #f9c349;
+  padding-top: 20px;
+  margin-top: auto;
+  color: #f9c349;
+}
+
+.footer h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 0.95em;
+}
